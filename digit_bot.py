@@ -26,13 +26,13 @@ PREFIX      = ","
 
 # Anti-Nuke thresholds: (count, seconds)
 THRESHOLDS = {
-    "ban":            (3, 3),
-    "kick":           (3, 3),
-    "channel_delete": (3, 3),
-    "channel_create": (5, 3),
-    "role_delete":    (3, 3),
-    "role_create":    (5, 3),
-    "webhook_create": (3, 3),
+    "ban":            (3, 2),
+    "kick":           (3, 2),
+    "channel_delete": (3, 2),
+    "channel_create": (5, 2),
+    "role_delete":    (3, 2),
+    "role_create":    (5, 2),
+    "webhook_create": (3, 2),
 }
 
 # Anti-Raid
